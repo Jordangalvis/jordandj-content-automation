@@ -252,19 +252,129 @@ def cargar_biblioteca(ruta_csv: Path) -> pd.DataFrame:
     return df
 
 
-def filtrar_por_genero(df: pd.DataFrame, genero: str) -> pd.DataFrame:
+# ─── REGLAS DE PUREZA DE GÉNERO Y LÍMITES DE BPM ───────────────────────────
+REGLAS_GENERO = {
+    "REGGAETON": {
+        "carpeta_exacta": ["Reggaeton"],
+        "bpm_min": 84.0,
+        "bpm_max": 108.0,
+        "excluir_keywords": [
+            "tech house", "house remix", "aleteo", "guaracha", "salsa to reggaeton",
+            "electro remix", "tribal", "edm remix", "bachata to reggaeton", "cumbia remix"
+        ],
+    },
+    "SALSA": {
+        "carpeta_exacta": ["SALSA"],
+        "bpm_min": 78.0,
+        "bpm_max": 115.0,
+        "excluir_keywords": [
+            "reggaeton", "dembow", "house mashup", "guaracha", "trap", "electronic",
+            "aleteo", "salsa to reggaeton", "bachata", "merengue"
+        ],
+    },
+    "BACHATA": {
+        "carpeta_exacta": ["Bachata"],
+        "bpm_min": 115.0,
+        "bpm_max": 145.0,
+        "excluir_keywords": ["reggaeton", "dembow", "salsa", "cumbia", "house", "guaracha"],
+    },
+    "MERENGUE": {
+        "carpeta_exacta": ["Merengue"],
+        "bpm_min": 120.0,
+        "bpm_max": 165.0,
+        "excluir_keywords": ["bachata", "salsa", "house", "aleteo"],
+    },
+    "CUMBIA": {
+        "carpeta_exacta": ["Cumbia"],
+        "bpm_min": 85.0,
+        "bpm_max": 115.0,
+        "excluir_keywords": ["reggaeton", "salsa", "bachata", "aleteo"],
+    },
+    "DEMBOW": {
+        "carpeta_exacta": ["Dembow"],
+        "bpm_min": 110.0,
+        "bpm_max": 132.0,
+        "excluir_keywords": ["salsa", "bachata", "house"],
+    },
+    "HIP HOP NIGHT CLUB": {
+        "carpeta_exacta": ["Hip Hop Night Club"],
+        "bpm_min": 75.0,
+        "bpm_max": 108.0,
+        "excluir_keywords": ["salsa", "bachata", "cumbia"],
+    },
+    "RNB": {
+        "carpeta_exacta": ["RnB"],
+        "bpm_min": 70.0,
+        "bpm_max": 120.0,
+        "excluir_keywords": ["salsa", "bachata"],
+    },
+    "AFROBEATS": {
+        "carpeta_exacta": ["Afrobeats"],
+        "bpm_min": 92.0,
+        "bpm_max": 118.0,
+        "excluir_keywords": ["salsa", "bachata", "cumbia"],
+    },
+    "MUSICA MEXICANA": {
+        "carpeta_exacta": ["Musica Mexicana"],
+        "bpm_min": 70.0,
+        "bpm_max": 160.0,
+        "excluir_keywords": ["reggaeton", "salsa"],
+    },
+    "FUNK NV": {
+        "carpeta_exacta": ["FUNK NV"],
+        "bpm_min": 120.0,
+        "bpm_max": 140.0,
+        "excluir_keywords": ["salsa", "bachata"],
+    }
+}
+
+
+def filtrar_por_genero(df: pd.DataFrame, genero: str, estricto: bool = True) -> pd.DataFrame:
     """
-    Filtra el DataFrame por género (case-insensitive, match parcial).
+    Filtra el DataFrame con reglas estrictas de pureza musical y tempo.
+    Elimina falsos positivos (como remixes de electrónica o crossovers no deseados).
 
     Args:
         df: DataFrame de la biblioteca
         genero: Nombre del género a filtrar
+        estricto: Si True, aplica límites de BPM y exclusión de palabras clave
 
     Returns:
-        DataFrame filtrado por género
+        DataFrame 100% puro del género
     """
-    mask = df["genre_carpeta"].str.lower().str.contains(genero.lower(), na=False)
-    resultado = df[mask].copy()
+    genero_upper = genero.strip().upper()
+    
+    # Buscar regla específica o fallback
+    regla = REGLAS_GENERO.get(genero_upper)
+    
+    if regla:
+        carpetas = [c.upper() for c in regla["carpeta_exacta"]]
+        mask = df["genre_carpeta"].str.strip().str.upper().isin(carpetas)
+        resultado = df[mask].copy()
+        
+        if estricto and not resultado.empty:
+            # 1. Filtro estricto de BPM
+            bpm_min = regla.get("bpm_min", 60.0)
+            bpm_max = regla.get("bpm_max", 200.0)
+            resultado = resultado[
+                (resultado["bpm_mik"].isna()) |
+                ((resultado["bpm_mik"] >= bpm_min) & (resultado["bpm_mik"] <= bpm_max))
+            ]
+            
+            # 2. Exclusión de palabras clave intrusas en título/versión
+            excluir = regla.get("excluir_keywords", [])
+            for kw in excluir:
+                mask_bad = (
+                    resultado["titulo_limpio"].str.contains(kw, case=False, na=False) |
+                    resultado["version_tipo"].str.contains(kw, case=False, na=False) |
+                    resultado["ruta_completa"].str.contains(kw, case=False, na=False)
+                )
+                resultado = resultado[~mask_bad]
+    else:
+        # Fallback para géneros no mapeados
+        mask = df["genre_carpeta"].str.lower().str.contains(genero.lower(), na=False)
+        resultado = df[mask].copy()
+
     if resultado.empty:
         generos_disponibles = df["genre_carpeta"].unique()
         print(f"\n{Color.AMARILLO}⚠️  No se encontraron tracks para género '{genero}'{Color.RESET}")
@@ -497,9 +607,30 @@ def seleccionar_tracks_bloque(df: pd.DataFrame,
         filtrados["_score"] = filtrados["_score"] + \
             filtrados.apply(lambda r: 30 if es_trending(r) else 0, axis=1)
 
-    # Ordenar por score y tomar los mejores
+    # Ordenar por score y seleccionar con límite de diversidad de artista (max 2 por artista)
     filtrados = filtrados.sort_values("_score", ascending=False)
-    seleccion = filtrados.head(cantidad).copy()
+    
+    seleccion_indices = []
+    conteo_artistas = {}
+    
+    for idx, row in filtrados.iterrows():
+        art = str(row.get("artista_limpio", "")).strip().lower()
+        art_base = art.split(" ft ")[0].split(" feat ")[0].split(",")[0].strip()
+        
+        if conteo_artistas.get(art_base, 0) < 2:
+            seleccion_indices.append(idx)
+            conteo_artistas[art_base] = conteo_artistas.get(art_base, 0) + 1
+            if len(seleccion_indices) >= cantidad:
+                break
+                
+    if len(seleccion_indices) < cantidad:
+        for idx in filtrados.index:
+            if idx not in seleccion_indices:
+                seleccion_indices.append(idx)
+                if len(seleccion_indices) >= cantidad:
+                    break
+
+    seleccion = filtrados.loc[seleccion_indices].copy()
 
     # Ordenar la selección final por BPM para facilitar mezcla
     seleccion = seleccion.sort_values("bpm_mik", na_position="last")
@@ -646,32 +777,24 @@ def generar_paleta_set(df: pd.DataFrame, genero: str, duracion: int,
         f"Energía 4-6 · Cierre suave · {n_cooldown} opciones"
     )
 
-    # ─── WILDCARDS ────────────────────────────────────────────────────────
-    # Buscar en otros géneros: mashups, trending, sorpresas
-    df_otros = df[~df.index.isin(usados)].copy()
-    df_otros = df_otros[
-        df_otros["genre_carpeta"].str.lower() != genero.lower()
-    ]
-    mask_wildcard = (
-        (df_otros["version_tipo"].str.upper().isin(["MASHUP", "TRANSITION"])) |
-        (df_otros.apply(es_trending, axis=1)) |
-        (df_otros["popularidad"].fillna(0) >= 70)
-    )
-    wildcards = df_otros[mask_wildcard].copy()
-    if wildcards.empty:
-        wildcards = df_otros.copy()
-
-    wildcards["_score"] = wildcards.apply(
-        lambda r: calcular_score_track(r), axis=1
-    )
-    wildcards = wildcards.sort_values("_score", ascending=False).head(n_wildcards)
-    if "_score" in wildcards.columns:
-        wildcards = wildcards.drop(columns=["_score"])
+    # ─── WILDCARDS (JOYAS / ARMAS SECRETAS DEL MISMO GÉNERO) ─────────────
+    # Buscar en el MISMO género: versiones especiales, clásicos no usados o bangers
+    candidatos_wildcard = df_genero[~df_genero.index.isin(usados)].copy()
+    
+    if not candidatos_wildcard.empty:
+        candidatos_wildcard["_score"] = candidatos_wildcard.apply(
+            lambda r: calcular_score_track(r), axis=1
+        )
+        wildcards = candidatos_wildcard.sort_values("_score", ascending=False).head(n_wildcards)
+        if "_score" in wildcards.columns:
+            wildcards = wildcards.drop(columns=["_score"])
+    else:
+        wildcards = pd.DataFrame()
 
     imprimir_bloque(
-        wildcards, "🎯", "WILDCARDS — Sorpresas & crossover",
+        wildcards, "🎯", f"ARMAS SECRETAS / CLÁSICOS — {genero}",
         Color.MAGENTA,
-        f"Tracks de otros géneros, mashups, trending · {n_wildcards} opciones"
+        f"Bangers y versiones destacadas de {genero} · {len(wildcards)} opciones"
     )
 
     # ─── Resumen final ───────────────────────────────────────────────────
