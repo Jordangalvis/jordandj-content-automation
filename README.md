@@ -1,6 +1,6 @@
-# 🎧 JordanDJ Content Automation System
+# 🎧 JordanDJ Content Automation Suite v2.0
 
-Sistema automatizado integral de curaduría musical, producción de sets para YouTube, creación de Reels virales, inyección directa de crates en **Serato DJ Pro** y descarga automática de música en **DJTools.vip**.
+Sistema automatizado integral con **Dashboard Web Visual**, curaduría musical asistida por IA, producción de sets para YouTube, creación de Reels virales, inyección directa de crates en **Serato DJ Pro** y descarga automática de música en **DJTools.vip**.
 
 ---
 
@@ -12,46 +12,31 @@ C:\Users\jorda\.gemini\antigravity\scratch\jordandj_content\
 
 ---
 
-## 🏛️ Arquitectura del Sistema
+## 🖥️ Nuevo: Dashboard Web Visual (`app.py`)
+Para abrir el centro de control visual en tu navegador:
+```bash
+streamlit run app.py
+```
+**Incluye:**
+- 🎚️ **Estudio de Sets & Reels:** Sliders de duración, selector de género y botón de 1 clic para inyectar directo a Serato.
+- 📊 **Visualizador Camelot & Energía:** Gráficos dinámicos interactivos con Plotly.
+- 🌐 **Radar de Tendencias Virales:** Escaneo en tiempo real de TikTok, Apple Music y Billboard con descarga en 1 clic.
+- 📅 **Calendario & Roadmap:** Vista completa del plan de 12 semanas en 4 fases.
+- 🎬 **Marketing Hub:** Títulos, descripciones y hashtags listos para copiar.
 
-```text
-                                 [ biblioteca_v3.csv ]
-                                           │
-         ┌─────────────────────────────────┼─────────────────────────────────┐
-         │                                 │                                 │
-         ▼                                 ▼                                 ▼
-┌──────────────────┐             ┌──────────────────┐             ┌──────────────────┐
-│ gap_analyzer.py  │             │ trend_detector.py│             │content_calendar  │
-│ (Auditoría Gaps) │             │ (Tendencias Top) │             │(Roadmap 12 Sem)  │
-└────────┬─────────┘             └────────┬─────────┘             └──────────────────┘
-         │                                │
-         └────────────────┬───────────────┘
-                          ▼
-            ┌───────────────────────────┐
-            │ djtools_auto_downloader.py│ ────▶ [ D:\DJ\Music\Nuevos_DJTools ]
-            │ (Descarga Automática MP3) │
-            └───────────────────────────┘
-                          │
-                          ▼
-            ┌───────────────────────────┐
-            │   tracklist_engine.py     │
-            │ (Curva Energía + Camelot) │
-            └─────────────┬─────────────┘
-                          │
-         ┌────────────────┴────────────────┐
-         ▼                                 ▼
-┌───────────────────────────┐   ┌───────────────────────────┐
-│ serato_crate_generator.py │   │    youtube_metadata.py    │
-│  (Inyección Crates D: y C:)│  │ (Títulos, Timestamps, Tags)│
-└───────────────────────────┘   └───────────────────────────┘
+---
+
+## 🌐 Nuevo: Scraper de Tendencias Virales en Vivo (`viral_trend_scraper.py`)
+Consulta las listas públicas de éxitos virales (Top 50 Latino de Apple Music y Billboard Hot Latin) y las cruza en tiempo real con tu biblioteca:
+```bash
+python viral_trend_scraper.py
 ```
 
 ---
 
-## 🚀 Módulos y Comandos
+## 🚀 Módulos de Consola y Pipeline
 
 ### 1. Orquestador Maestro Todo-en-Uno (`pipeline.py`)
-Ejecuta todo el flujo (paleta + Serato crate + metadata YouTube) en una sola línea:
 ```bash
 # Set para YouTube
 python pipeline.py set --genre Reggaeton --duration 40 --vibra perreo
@@ -64,7 +49,6 @@ python pipeline.py crossover --genres "Hip Hop Night Club,Reggaeton" --duration 
 ```
 
 ### 2. Generador de Paletas Creativas (`tracklist_engine.py`)
-Aplica mezcla armónica (Camelot Wheel) y curvas de energía (Intro → Build → Peak → Cooldown).
 ```bash
 python tracklist_engine.py set --genre Reggaeton --duration 50
 python tracklist_engine.py reel --genre Reggaeton --count 8
@@ -80,9 +64,10 @@ python serato_crate_generator.py --palette paletas/palette.json --force
 ```
 
 ### 4. Robot de Descargas Automáticas (`djtools_auto_downloader.py`)
-Inicia sesión en DJTools, busca los top artistas de tus géneros débiles y descarga versiones exclusivas para DJ (Intro, Outro, Open Show, Dirty):
+Inicia sesión en DJTools, busca los top artistas de tus géneros débiles o tendencias virales y descarga versiones exclusivas para DJ:
 ```bash
 python djtools_auto_downloader.py
+python djtools_auto_downloader.py --report viral_trends.json
 ```
 
 ### 5. Auditor de Carencias (`gap_analyzer.py`)
@@ -90,7 +75,7 @@ python djtools_auto_downloader.py
 python gap_analyzer.py
 ```
 
-### 6. Detector de Tendencias (`trend_detector.py`)
+### 6. Detector de Tendencias Locales (`trend_detector.py`)
 ```bash
 python trend_detector.py --output trend_report.json
 ```

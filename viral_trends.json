@@ -1,0 +1,661 @@
+{
+  "fecha_actualizacion": "2026-08-16T13:09:33.920459",
+  "total_analizados": 79,
+  "total_en_biblioteca": 56,
+  "total_faltantes": 23,
+  "porcentaje_cobertura": 70.9,
+  "faltantes_virales": [
+    {
+      "posicion": 1,
+      "titulo": "BbY WOW",
+      "artista": "KAROL G, Judeline & rusowsky",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 3,
+      "titulo": "Ahí",
+      "artista": "KAROL G & Drake",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 4,
+      "titulo": "Y Qué Fue?",
+      "artista": "Don Miguelo",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 5,
+      "titulo": "MARATHON",
+      "artista": "Becky G & elkan",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 7,
+      "titulo": "For u My lova",
+      "artista": "KAROL G",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 9,
+      "titulo": "Como Un Sueño",
+      "artista": "Alex Gargolas, Ken-Y & Farruko",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 15,
+      "titulo": "CHÉVERE (premium_remix)",
+      "artista": "ARIA VEGA & Ryan Castro",
+      "genero": "Latin",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 16,
+      "titulo": "Bebiendo Lágrimas",
+      "artista": "KAROL G",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 19,
+      "titulo": "La Mamá de la Mamá",
+      "artista": "El Alfa, El Cherry Scom & CJ",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 22,
+      "titulo": "LA CANCIÓN",
+      "artista": "J Balvin & Bad Bunny",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 32,
+      "titulo": "Fácil (Prod. By Dj Honda x Roberto Ferrante)",
+      "artista": "Bebeshito, Roberto Ferrante & DJ Honda",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 34,
+      "titulo": "Nalguita y Teta",
+      "artista": "Neton Vega",
+      "genero": "Latin",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 39,
+      "titulo": "EL BARCO",
+      "artista": "KAROL G",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 40,
+      "titulo": "Bendice Mi Casa",
+      "artista": "Omy Alka & Alex Zurdo",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 41,
+      "titulo": "D' LEJITOS",
+      "artista": "Chino & Nacho, ELENA ROSE, Nacho & Chyno Miranda",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 45,
+      "titulo": "Ven báilalo (Reggaeton Mix)",
+      "artista": "Angel y Khriz",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 48,
+      "titulo": "Ta Talde Pah",
+      "artista": "Bulin 47 & Ceky Viciny",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 12,
+      "titulo": "Khe?",
+      "artista": "Rauw Alejandro&Romeo Santos",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 14,
+      "titulo": "Te Queria Ver",
+      "artista": "Aleman X Neton Vega",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 17,
+      "titulo": "El Club",
+      "artista": "Bad Bunny",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 19,
+      "titulo": "Tu Sancho",
+      "artista": "Fuerza Regida",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 22,
+      "titulo": "Ojos Tristes",
+      "artista": "Selena Gomez,Benny Blanco&The Marias",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": false
+    },
+    {
+      "posicion": 24,
+      "titulo": "Weltita",
+      "artista": "Bad Bunny& Chuwi",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": false
+    }
+  ],
+  "existentes": [
+    {
+      "posicion": 2,
+      "titulo": "Danza Kuduro (feat. Lucenzo)",
+      "artista": "Don Omar",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 6,
+      "titulo": "Gasolina",
+      "artista": "Daddy Yankee",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 8,
+      "titulo": "Leo Leo (Remix)",
+      "artista": "Bulin 47 & Afriken An",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 10,
+      "titulo": "Gasolina (Dj Buddha Remix)",
+      "artista": "Daddy Yankee, Lil Jon, Noriega & Pitbull",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 11,
+      "titulo": "PROVENZA",
+      "artista": "KAROL G",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 12,
+      "titulo": "Dile",
+      "artista": "Don Omar",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 13,
+      "titulo": "El Merengue",
+      "artista": "Marshmello & Manuel Turizo",
+      "genero": "Pop Latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 14,
+      "titulo": "Mi Gente",
+      "artista": "J Balvin & Willy William",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 17,
+      "titulo": "4K",
+      "artista": "El Alfa, Darell & Noriel",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 18,
+      "titulo": "Casper Cha-Cha Slide",
+      "artista": "Casper & The Live Platinum Band",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 20,
+      "titulo": "RIKI",
+      "artista": "Neton Vega",
+      "genero": "Latin",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 21,
+      "titulo": "My Queen",
+      "artista": "Dalvin La Melodia",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 23,
+      "titulo": "Dale Don Dale",
+      "artista": "Don Omar",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 24,
+      "titulo": "top diesel",
+      "artista": "Beéle",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 25,
+      "titulo": "La Bachata",
+      "artista": "Manuel Turizo",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 26,
+      "titulo": "Yo Voy (feat. Daddy Yankee)",
+      "artista": "Zion & Lennox",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 27,
+      "titulo": "Pasarela (feat. Dalmata)",
+      "artista": "DJ Nelson",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 29,
+      "titulo": "No Tengo Dinero",
+      "artista": "Kumbia Kings",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 30,
+      "titulo": "CONTIGO",
+      "artista": "KAROL G & Tiësto",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 31,
+      "titulo": "Bandoleros (feat. Tego Calderón)",
+      "artista": "Don Omar",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 33,
+      "titulo": "Todavía Te Hablo Mamá",
+      "artista": "Pluma Fina La Cruda Music",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 35,
+      "titulo": "Llamado de Emergencia",
+      "artista": "Daddy Yankee",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 36,
+      "titulo": "Mis Ojos Lloran Por Ti (feat. Angel Lopez)",
+      "artista": "Big Boy",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 37,
+      "titulo": "Una Aventura",
+      "artista": "Ozuna",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 38,
+      "titulo": "Ámame Otra Vez (feat. Salma Juárez)",
+      "artista": "GRUPO DEZKONTROL",
+      "genero": "Latin",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 42,
+      "titulo": "Lo Que Pasó, Pasó",
+      "artista": "Daddy Yankee",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 43,
+      "titulo": "Dura",
+      "artista": "Daddy Yankee",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 44,
+      "titulo": "Loco",
+      "artista": "Justin Quiles, Chimbala & Zion & Lennox",
+      "genero": "Latin",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 46,
+      "titulo": "Virtual Diva",
+      "artista": "Don Omar",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 47,
+      "titulo": "Siente El Boom",
+      "artista": "Tito El Bambino & Randy",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 49,
+      "titulo": "Ahora Es",
+      "artista": "Wisin & Yandel",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 50,
+      "titulo": "Por Que (feat. Manny Ruiz)",
+      "artista": "Jae-P",
+      "genero": "Urbano latino",
+      "fuente": "Apple Music / iTunes Latin Top 50",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 1,
+      "titulo": "DTMF",
+      "artista": "Bad Bunny",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 2,
+      "titulo": "Baile Inolvidable",
+      "artista": "Bad Bunny",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 3,
+      "titulo": "Nuevayol",
+      "artista": "Bad Bunny",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 4,
+      "titulo": "EOO",
+      "artista": "Bad Bunny",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 5,
+      "titulo": "Me Jalo",
+      "artista": "Fuerza Regida&Grupo Frontera",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 6,
+      "titulo": "Tu Boda",
+      "artista": "Oscar Maydon &Fuerza Regida",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 7,
+      "titulo": "Loco",
+      "artista": "Neton Vega",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 8,
+      "titulo": "Que Pasaria...",
+      "artista": "Rauw Alejandro&Bad Bunny",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 9,
+      "titulo": "Voy A Llevarte Pa PR",
+      "artista": "Bad Bunny",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 10,
+      "titulo": "Por Esos Ojos",
+      "artista": "Fuerza Regida",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 11,
+      "titulo": "Marlboro Rojo",
+      "artista": "Fuerza Regida",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 13,
+      "titulo": "Velda",
+      "artista": "Bad Bunny, Omar Courtz & Dei V",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 15,
+      "titulo": "Nadie",
+      "artista": "Tito Double P",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 16,
+      "titulo": "Dos Dias",
+      "artista": "Tito Double P &Peso Pluma",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 18,
+      "titulo": "Morena",
+      "artista": "Neton Vega &Peso Pluma",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 20,
+      "titulo": "Rosones",
+      "artista": "Tito Double P",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 21,
+      "titulo": "En Privado",
+      "artista": "Xavi &Manuel Turizo",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 23,
+      "titulo": "Tattoo",
+      "artista": "Tito Double P",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 25,
+      "titulo": "Si Antes Te Hubiera Conocido",
+      "artista": "Karol G",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 26,
+      "titulo": "Kloufrens",
+      "artista": "Bad Bunny",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 27,
+      "titulo": "Tu Tu Tu",
+      "artista": "Clave Especial & Edgardo Nunez",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 28,
+      "titulo": "M&M",
+      "artista": "Neton Vega",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 29,
+      "titulo": "La Plena (W Sound 05)",
+      "artista": "W Sound, Beele &Ovy On The Drums",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    },
+    {
+      "posicion": 30,
+      "titulo": "Ansiedad",
+      "artista": "Fuerza Regida",
+      "genero": "Latin Urban / Regional",
+      "fuente": "Billboard Hot Latin Songs",
+      "en_biblioteca": true
+    }
+  ],
+  "6_lista_compras": {
+    "generos_nuevos": {},
+    "generos_debiles": {
+      "KAROL G, Judeline & rusowsky": 1,
+      "KAROL G & Drake": 1,
+      "Don Miguelo": 1,
+      "Becky G & elkan": 1,
+      "KAROL G": 1,
+      "Alex Gargolas, Ken-Y & Farruko": 1,
+      "ARIA VEGA & Ryan Castro": 1,
+      "El Alfa, El Cherry Scom & CJ": 1,
+      "J Balvin & Bad Bunny": 1,
+      "Bebeshito, Roberto Ferrante & DJ Honda": 1,
+      "Neton Vega": 1,
+      "Omy Alka & Alex Zurdo": 1,
+      "Chino & Nacho, ELENA ROSE, Nacho & Chyno Miranda": 1
+    }
+  }
+}
