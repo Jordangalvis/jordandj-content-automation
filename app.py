@@ -373,19 +373,30 @@ with tab_calendar:
         with open(CALENDAR_JSON, "r", encoding="utf-8") as f:
             cal_data = json.load(f)
 
-        semanas = cal_data.get("semanas", [])
+        if isinstance(cal_data, list):
+            semanas = cal_data
+        elif isinstance(cal_data, dict):
+            semanas = cal_data.get("semanas", [])
+        else:
+            semanas = []
+
         for sem in semanas:
-            with st.expander(f"📍 Semana {sem.get('semana')}: {sem.get('set_youtube', {}).get('tema')} ({sem.get('fase')})"):
+            set_info = sem.get("set", sem.get("set_youtube", {}))
+            reel_info = sem.get("reel", {})
+            fase_txt = sem.get("fase_nombre", f"Fase {sem.get('fase', 1)}")
+            tema_txt = set_info.get("tema", "Set Semanal")
+
+            with st.expander(f"📍 Semana {sem.get('semana')}: {tema_txt} ({fase_txt})"):
                 col_c1, col_c2 = st.columns(2)
                 with col_c1:
                     st.markdown("**🎬 Set YouTube:**")
-                    st.write(f"• Género: `{sem.get('set_youtube', {}).get('genero')}`")
-                    st.write(f"• Duración: `{sem.get('set_youtube', {}).get('duracion_min')} min`")
-                    st.write(f"• Nombre: `{sem.get('set_youtube', {}).get('tema')}`")
+                    st.write(f"• Género: `{set_info.get('genero', 'Varios')}`")
+                    st.write(f"• Duración: `{set_info.get('duracion_min', 30)} min`")
+                    st.write(f"• Tema: `{set_info.get('tema', 'Mix')}`")
                 with col_c2:
                     st.markdown("**📱 Reel / TikTok:**")
-                    st.write(f"• Género: `{sem.get('reel', {}).get('genero')}`")
-                    st.write(f"• Concepto: `{sem.get('reel', {}).get('concepto')}`")
+                    st.write(f"• Género: `{reel_info.get('genero', 'Varios')}`")
+                    st.write(f"• Concepto: `{reel_info.get('tema', reel_info.get('concepto', 'Drop Viral'))}`")
 
 
 # ---------------------------------------------------------
