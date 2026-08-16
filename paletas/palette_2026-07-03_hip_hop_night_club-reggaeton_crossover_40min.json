@@ -1,0 +1,267 @@
+{
+  "metadata": {
+    "tipo": "crossover",
+    "generos": [
+      "Hip Hop Night Club",
+      "Reggaeton"
+    ],
+    "duracion_min": 40,
+    "tracks_necesarios": 11,
+    "fecha_generacion": "2026-07-03T16:02:23.723142"
+  },
+  "bloques": {
+    "bloque_1_hip_hop_night_club": [
+      {
+        "titulo": "Espresso Vs. Brick House (Blend) (Clean) (Indie Pop, 70 S, Funk) 107",
+        "artista": "Sabrina Carpenter & The Commodores Vs. Nick Bike & Case Bloom",
+        "bpm": 107.0,
+        "key": "8A",
+        "energy": 6.0,
+        "version": "CLEAN",
+        "popularidad": 89.0,
+        "genero": "Hip Hop Night Club",
+        "ruta": "D:\\DJ\\Music\\Hip Hop Night Club\\Clean\\Sabrina Carpenter & The Commodores Vs. Nick Bike & Case Bloom - Espresso Vs. Brick House (Blend) (Clean) (Indie Pop, 70 S, Funk) 107 - 8A - 107.00.mp3"
+      },
+      {
+        "titulo": "Pink Pony Club (Straw Remix) (Clean) 118",
+        "artista": "Chappell Roan",
+        "bpm": 118.0,
+        "key": "2B",
+        "energy": 7.0,
+        "version": "CLEAN",
+        "popularidad": 91.0,
+        "genero": "Hip Hop Night Club",
+        "ruta": "D:\\DJ\\Music\\Hip Hop Night Club\\Clean\\Chappell Roan - Pink Pony Club (Straw Remix) (Clean) 118 - 2B - 118.00.mp3"
+      },
+      {
+        "titulo": "I Had Some Help (Cazes 'Heaven Or Not' Edit) (Clean) 125",
+        "artista": "Post Malone Feat. Morgan Wallen Vs. Diplo & Riva Starr",
+        "bpm": 125.0,
+        "key": "8A",
+        "energy": 7.0,
+        "version": "CLEAN",
+        "popularidad": 88.0,
+        "genero": "Hip Hop Night Club",
+        "ruta": "D:\\DJ\\Music\\Hip Hop Night Club\\Clean\\Post Malone Feat. Morgan Wallen Vs. Diplo & Riva Starr - I Had Some Help (Cazes 'Heaven Or Not' Edit) (Clean) 125 - 8A - 125.00.mp3"
+      },
+      {
+        "titulo": "Stick Season (Jacked Remix) 126",
+        "artista": "Noah Kahan",
+        "bpm": 126.0,
+        "key": "11A",
+        "energy": 7.0,
+        "version": "FULL",
+        "popularidad": 88.0,
+        "genero": "Hip Hop Night Club",
+        "ruta": "D:\\DJ\\Music\\Hip Hop Night Club\\Noah Kahan - Stick Season (Jacked Remix) 126 - 11A - 126.00.mp3"
+      },
+      {
+        "titulo": "Think U The Shit (Fart) Vx Run It (All Night) (Bootleg) (Clean) 126",
+        "artista": "Ice Spice Vs Cheyenne Giles",
+        "bpm": 126.0,
+        "key": "9A",
+        "energy": 8.0,
+        "version": "CLEAN",
+        "popularidad": 80.0,
+        "genero": "Hip Hop Night Club",
+        "ruta": "D:\\DJ\\Music\\Hip Hop Night Club\\Clean\\Ice Spice Vs Cheyenne Giles - Think U The Shit (Fart) Vx Run It (All Night) (Bootleg) (Clean) 126 - 9A - 126.00.mp3"
+      },
+      {
+        "titulo": "Birds Of A Feather (Remix) 126",
+        "artista": "Billie Eilish",
+        "bpm": 126.0,
+        "key": "10A",
+        "energy": 7.0,
+        "version": "FULL",
+        "popularidad": 95.0,
+        "genero": "Hip Hop Night Club",
+        "ruta": "D:\\DJ\\Music\\Hip Hop Night Club\\Billie Eilish - Birds Of A Feather (Remix) 126 - 10A - 126.00.mp3"
+      },
+      {
+        "titulo": "Black Eyed Peas I Gotta Feeling [KRLOS CUEVA]",
+        "artista": "Black Eyed Peas",
+        "bpm": 128.0,
+        "key": "9B",
+        "energy": 7.0,
+        "version": "FULL",
+        "popularidad": 84.0,
+        "genero": "Hip Hop Night Club",
+        "ruta": "D:\\DJ\\Music\\Hip Hop Night Club\\128. Black Eyed Peas - I Gotta Feeling [KRLOS CUEVA] -  - bpm - DJTOOLSVIP - 9B - 128.00.m4a"
+      },
+      {
+        "titulo": "Shiver (Remix) (Edit) 128",
+        "artista": "John Summit",
+        "bpm": 128.0,
+        "key": "9A",
+        "energy": 7.0,
+        "version": "FULL",
+        "popularidad": 77.0,
+        "genero": "Hip Hop Night Club",
+        "ruta": "D:\\DJ\\Music\\Hip Hop Night Club\\John Summit - Shiver (Remix) (Edit) 128 - 9A - 128.00.mp3"
+      }
+    ],
+    "transicion_hip_hop_night_club_a_reggaeton": [
+      {
+        "titulo": "Going Back To Cali (Dj Hope Intro Outro Edit) (Dirty)",
+        "artista": "The Notorious B.I.G.",
+        "bpm": 99.0,
+        "key": "12A",
+        "energy": 6.0,
+        "version": "INTRO-OUTRO",
+        "tipo_transicion": "puente",
+        "ruta": "D:\\DJ\\Music\\Hip Hop Night Club\\Going Back To Cali (Dj Hope Intro Outro Edit) (Dirty) -  The Notorious B.I.G. -  99.00bpm - DJTOOLSVIP - 12A - 99.00.mp3"
+      },
+      {
+        "titulo": "Party in the Empire J Gunz Blend",
+        "artista": "Jay Z Vs Miley Cyrus",
+        "bpm": 96.0,
+        "key": "2B",
+        "energy": 8.0,
+        "version": "MASHUP",
+        "tipo_transicion": "puente",
+        "ruta": "D:\\DJ\\Music\\Hip Hop Night Club\\Jay Z Vs Miley Cyrus - Party in the Empire J Gunz Blend - 2B - 96.00.mp3"
+      },
+      {
+        "titulo": "Juicy (Dj Hope Intro Outro Edit) (Dirty)",
+        "artista": "The Notorious B.I.G.",
+        "bpm": 96.04,
+        "key": "12B",
+        "energy": 5.0,
+        "version": "INTRO-OUTRO",
+        "tipo_transicion": "puente",
+        "ruta": "D:\\DJ\\Music\\Hip Hop Night Club\\Juicy (Dj Hope Intro Outro Edit) (Dirty) -  The Notorious B.I.G. -  96.05bpm - DJTOOLSVIP - 12B - 96.04.mp3"
+      }
+    ],
+    "bloque_2_reggaeton": [
+      {
+        "titulo": "Felina Hector & Tito",
+        "artista": "Felina",
+        "bpm": 93.0,
+        "key": "3A",
+        "energy": 7.0,
+        "version": "FULL",
+        "popularidad": 81.0,
+        "genero": "Reggaeton",
+        "ruta": "D:\\DJ\\Music\\Reggaeton\\Old School (Elite)\\Felina - Hector & Tito - 3A - 93.00.wav"
+      },
+      {
+        "titulo": "MI GATA STANDLY x EL BARTO",
+        "artista": "MI GATA",
+        "bpm": 95.0,
+        "key": "5A",
+        "energy": 6.0,
+        "version": "FULL",
+        "popularidad": 87.0,
+        "genero": "Reggaeton",
+        "ruta": "D:\\DJ\\Music\\Reggaeton\\Nuevo Comercial (Elite)\\MI GATA - STANDLY x EL BARTO  - 5A - 95.00.wav"
+      },
+      {
+        "titulo": "Blessd ft Ryan Castro Quien Tv-Dj Mag Extended Pro",
+        "artista": "Blessd ft Ryan Castro Quien Tv-Dj Mag Extended Pro",
+        "bpm": 95.0,
+        "key": "5A",
+        "energy": 6.0,
+        "version": "EXTENDED",
+        "popularidad": 84.0,
+        "genero": "Reggaeton",
+        "ruta": "D:\\DJ\\Music\\Reggaeton\\Reggaeton Mixto\\Blessd ft Ryan Castro- Quien Tv-Dj Mag Extended Pro - 5A - 95.00.wav"
+      },
+      {
+        "titulo": "Te lo tiro",
+        "artista": "Plan Te Lo Tiro Pa Que Bailes",
+        "bpm": 95.0,
+        "key": "1A",
+        "energy": 6.0,
+        "version": "FULL",
+        "popularidad": 95.0,
+        "genero": "Reggaeton",
+        "ruta": "D:\\DJ\\Music\\Reggaeton\\Old School (Elite)\\Plan Te Lo Tiro Pa Que Bailes - 1A - 95.00.wav"
+      },
+      {
+        "titulo": "(Clean)",
+        "artista": "Randy, Ape Drums & Major Lazer",
+        "bpm": 96.0,
+        "key": "1A",
+        "energy": 6.0,
+        "version": "CLEAN",
+        "popularidad": 99.0,
+        "genero": "Reggaeton",
+        "ruta": "D:\\DJ\\Music\\Reggaeton\\Reggaeton Nuevo\\Randy, Ape Drums & Major Lazer (Clean) - 1A - 96.00.mp3"
+      },
+      {
+        "titulo": "Chulo pt.2 vs Metele Sazon (Muzik Junkies Segue) (Dirty Extended)",
+        "artista": "Bad Gyal, Tokischa & Young Miko vs Tego Calderon",
+        "bpm": 97.0,
+        "key": "3A",
+        "energy": 8.0,
+        "version": "EXTENDED",
+        "popularidad": 75.0,
+        "genero": "Reggaeton",
+        "ruta": "D:\\DJ\\Music\\Reggaeton\\Reggaeton Nuevo\\Chulo pt.2 vs Metele Sazon (Muzik Junkies Segue) (Dirty Extended) -  Bad Gyal, Tokischa & Young Miko vs Tego Calderon -  97bpm - DJTOOLSVIP - 3A - 97.00.mp3"
+      },
+      {
+        "titulo": "EN ACCION",
+        "artista": "EN ACCION",
+        "bpm": 98.0,
+        "key": "10A",
+        "energy": 7.0,
+        "version": "FULL",
+        "popularidad": 89.0,
+        "genero": "Reggaeton",
+        "ruta": "D:\\DJ\\Music\\Reggaeton\\Artistas\\LA FACTORIA\\EN ACCION - 10A - 98.00.mp3"
+      },
+      {
+        "titulo": "donde estan las gatas",
+        "artista": "DONDE ESTAN LAS GATAS",
+        "bpm": 110.0,
+        "key": "5A",
+        "energy": 6.0,
+        "version": "FULL",
+        "popularidad": 92.0,
+        "genero": "Reggaeton",
+        "ruta": "D:\\DJ\\Music\\Reggaeton\\Old School (Elite)\\DONDE ESTAN LAS GATAS - NICKY JAM FT. DADDY YANKEE - 5A - 110.00.wav"
+      }
+    ],
+    "fusion": [
+      {
+        "titulo": "Alesso If I Lose Myself (LUIFER SUMMER MASHUP) B. Maxx Ehrling",
+        "artista": "Alesso",
+        "bpm": 126.0,
+        "key": "1A",
+        "version": "MASHUP",
+        "ruta": "D:\\DJ\\Music\\EDM\\Elite\\PACK HOUSE-TRIBAL\\3\\Alesso - If I Lose Myself (LUIFER SUMMER MASHUP) B. Maxx Ehrling - 1A - 126.00.mp3"
+      },
+      {
+        "titulo": "Papi Chulo Vs Chulo Pt 2 (Jesus Olivera Mashup) Chombaski FLOW 2",
+        "artista": "Bad Gyal, Lorna, Tokischa, Young Miko",
+        "bpm": 98.0,
+        "key": "4A",
+        "version": "MASHUP",
+        "ruta": "D:\\DJ\\Music\\Reggaeton\\Mashup y Wordplays\\Papi Chulo Vs Chulo Pt 2 (Jesus Olivera Mashup) Chombaski FLOW  Bad Gyal, Lorna, Tokischa, Young Miko -  98bpm - DJTOOLSVIP - 4A - 98.00.mp3"
+      }
+    ]
+  },
+  "serato_tracks": [
+    "D:\\DJ\\Music\\Hip Hop Night Club\\Clean\\Sabrina Carpenter & The Commodores Vs. Nick Bike & Case Bloom - Espresso Vs. Brick House (Blend) (Clean) (Indie Pop, 70 S, Funk) 107 - 8A - 107.00.mp3",
+    "D:\\DJ\\Music\\Hip Hop Night Club\\Clean\\Chappell Roan - Pink Pony Club (Straw Remix) (Clean) 118 - 2B - 118.00.mp3",
+    "D:\\DJ\\Music\\Hip Hop Night Club\\Clean\\Post Malone Feat. Morgan Wallen Vs. Diplo & Riva Starr - I Had Some Help (Cazes 'Heaven Or Not' Edit) (Clean) 125 - 8A - 125.00.mp3",
+    "D:\\DJ\\Music\\Hip Hop Night Club\\Noah Kahan - Stick Season (Jacked Remix) 126 - 11A - 126.00.mp3",
+    "D:\\DJ\\Music\\Hip Hop Night Club\\Clean\\Ice Spice Vs Cheyenne Giles - Think U The Shit (Fart) Vx Run It (All Night) (Bootleg) (Clean) 126 - 9A - 126.00.mp3",
+    "D:\\DJ\\Music\\Hip Hop Night Club\\Billie Eilish - Birds Of A Feather (Remix) 126 - 10A - 126.00.mp3",
+    "D:\\DJ\\Music\\Hip Hop Night Club\\128. Black Eyed Peas - I Gotta Feeling [KRLOS CUEVA] -  - bpm - DJTOOLSVIP - 9B - 128.00.m4a",
+    "D:\\DJ\\Music\\Hip Hop Night Club\\John Summit - Shiver (Remix) (Edit) 128 - 9A - 128.00.mp3",
+    "D:\\DJ\\Music\\Hip Hop Night Club\\Going Back To Cali (Dj Hope Intro Outro Edit) (Dirty) -  The Notorious B.I.G. -  99.00bpm - DJTOOLSVIP - 12A - 99.00.mp3",
+    "D:\\DJ\\Music\\Hip Hop Night Club\\Jay Z Vs Miley Cyrus - Party in the Empire J Gunz Blend - 2B - 96.00.mp3",
+    "D:\\DJ\\Music\\Hip Hop Night Club\\Juicy (Dj Hope Intro Outro Edit) (Dirty) -  The Notorious B.I.G. -  96.05bpm - DJTOOLSVIP - 12B - 96.04.mp3",
+    "D:\\DJ\\Music\\Reggaeton\\Old School (Elite)\\Felina - Hector & Tito - 3A - 93.00.wav",
+    "D:\\DJ\\Music\\Reggaeton\\Nuevo Comercial (Elite)\\MI GATA - STANDLY x EL BARTO  - 5A - 95.00.wav",
+    "D:\\DJ\\Music\\Reggaeton\\Reggaeton Mixto\\Blessd ft Ryan Castro- Quien Tv-Dj Mag Extended Pro - 5A - 95.00.wav",
+    "D:\\DJ\\Music\\Reggaeton\\Old School (Elite)\\Plan Te Lo Tiro Pa Que Bailes - 1A - 95.00.wav",
+    "D:\\DJ\\Music\\Reggaeton\\Reggaeton Nuevo\\Randy, Ape Drums & Major Lazer (Clean) - 1A - 96.00.mp3",
+    "D:\\DJ\\Music\\Reggaeton\\Reggaeton Nuevo\\Chulo pt.2 vs Metele Sazon (Muzik Junkies Segue) (Dirty Extended) -  Bad Gyal, Tokischa & Young Miko vs Tego Calderon -  97bpm - DJTOOLSVIP - 3A - 97.00.mp3",
+    "D:\\DJ\\Music\\Reggaeton\\Artistas\\LA FACTORIA\\EN ACCION - 10A - 98.00.mp3",
+    "D:\\DJ\\Music\\Reggaeton\\Old School (Elite)\\DONDE ESTAN LAS GATAS - NICKY JAM FT. DADDY YANKEE - 5A - 110.00.wav",
+    "D:\\DJ\\Music\\EDM\\Elite\\PACK HOUSE-TRIBAL\\3\\Alesso - If I Lose Myself (LUIFER SUMMER MASHUP) B. Maxx Ehrling - 1A - 126.00.mp3",
+    "D:\\DJ\\Music\\Reggaeton\\Mashup y Wordplays\\Papi Chulo Vs Chulo Pt 2 (Jesus Olivera Mashup) Chombaski FLOW  Bad Gyal, Lorna, Tokischa, Young Miko -  98bpm - DJTOOLSVIP - 4A - 98.00.mp3"
+  ]
+}

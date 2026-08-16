@@ -1,0 +1,206 @@
+[
+  {
+    "semana": 1,
+    "fecha": "2026-07-07",
+    "fase": 1,
+    "fase_nombre": "CORE LATINO",
+    "set": {
+      "genero": "Reggaeton",
+      "tipo": "set",
+      "tema": "Reggaeton Session Vol.1",
+      "emoji": "🔥"
+    },
+    "reel": {
+      "genero": "Reggaeton",
+      "tema": "Drop del momento",
+      "emoji": "🔥"
+    }
+  },
+  {
+    "semana": 2,
+    "fecha": "2026-07-14",
+    "fase": 1,
+    "fase_nombre": "CORE LATINO",
+    "set": {
+      "genero": "Bachata",
+      "tipo": "set",
+      "tema": "Bachata & Salsa Night Vol.1",
+      "emoji": "💃"
+    },
+    "reel": {
+      "genero": "Bachata",
+      "tema": "Bachata trending",
+      "emoji": "💃"
+    }
+  },
+  {
+    "semana": 3,
+    "fecha": "2026-07-21",
+    "fase": 1,
+    "fase_nombre": "CORE LATINO",
+    "set": {
+      "genero": "Reggaeton",
+      "tipo": "set",
+      "tema": "Reggaeton Perreo Vol.1",
+      "emoji": "🔥"
+    },
+    "reel": {
+      "genero": "Reggaeton",
+      "tema": "Perreo mashup",
+      "emoji": "🔊"
+    }
+  },
+  {
+    "semana": 4,
+    "fecha": "2026-07-28",
+    "fase": 1,
+    "fase_nombre": "CORE LATINO",
+    "set": {
+      "genero": "Merengue",
+      "tipo": "set",
+      "tema": "Merengue Clásico + Moderno Vol.1",
+      "emoji": "🥁"
+    },
+    "reel": {
+      "genero": "Merengue",
+      "tema": "Merengue hit",
+      "emoji": "🥁"
+    }
+  },
+  {
+    "semana": 5,
+    "fecha": "2026-08-04",
+    "fase": 1,
+    "fase_nombre": "CORE LATINO",
+    "set": {
+      "genero": "SALSA",
+      "tipo": "set",
+      "tema": "Salsa Session Vol.1",
+      "emoji": "🎺"
+    },
+    "reel": {
+      "genero": "SALSA",
+      "tema": "Salsa viral",
+      "emoji": "🎺"
+    }
+  },
+  {
+    "semana": 6,
+    "fecha": "2026-08-11",
+    "fase": 1,
+    "fase_nombre": "CORE LATINO",
+    "set": {
+      "genero": "Reggaeton",
+      "tipo": "set",
+      "tema": "Reggaeton Romántico Vol.1",
+      "emoji": "💕"
+    },
+    "reel": {
+      "genero": "Reggaeton",
+      "tema": "Reggaeton romántico clip",
+      "emoji": "💕"
+    }
+  },
+  {
+    "semana": 7,
+    "fecha": "2026-08-18",
+    "fase": 1,
+    "fase_nombre": "CORE LATINO",
+    "set": {
+      "genero": "Bachata,SALSA",
+      "tipo": "crossover",
+      "tema": "Bachata × Salsa Night Vol.1",
+      "emoji": "💃🎺"
+    },
+    "reel": {
+      "genero": "Bachata",
+      "tema": "Bachata sensual",
+      "emoji": "💃"
+    }
+  },
+  {
+    "semana": 8,
+    "fecha": "2026-08-25",
+    "fase": 1,
+    "fase_nombre": "CORE LATINO",
+    "set": {
+      "genero": "Reggaeton",
+      "tipo": "set",
+      "tema": "Reggaeton Hits Vol.1",
+      "emoji": "🔥"
+    },
+    "reel": {
+      "genero": "Reggaeton",
+      "tema": "Hit del momento",
+      "emoji": "🔥"
+    }
+  },
+  {
+    "semana": 9,
+    "fecha": "2026-09-01",
+    "fase": 2,
+    "fase_nombre": "EXPANSIÓN LATINA",
+    "set": {
+      "genero": "Cumbia",
+      "tipo": "set",
+      "tema": "Cumbia Argentina Session Vol.1",
+      "emoji": "🇦🇷"
+    },
+    "reel": {
+      "genero": "Cumbia",
+      "tema": "RKT viral moment",
+      "emoji": "🇦🇷"
+    }
+  },
+  {
+    "semana": 10,
+    "fecha": "2026-09-08",
+    "fase": 2,
+    "fase_nombre": "EXPANSIÓN LATINA",
+    "set": {
+      "genero": "Reggaeton,Dembow",
+      "tipo": "crossover",
+      "tema": "Reggaeton × Dembow Vol.1",
+      "emoji": "🔥🔊"
+    },
+    "reel": {
+      "genero": "Dembow",
+      "tema": "Dembow drop",
+      "emoji": "🔊"
+    }
+  },
+  {
+    "semana": 11,
+    "fecha": "2026-09-15",
+    "fase": 2,
+    "fase_nombre": "EXPANSIÓN LATINA",
+    "set": {
+      "genero": "FUNK NV",
+      "tipo": "set",
+      "tema": "Funk Brasileiro Mix Vol.1",
+      "emoji": "🇧🇷"
+    },
+    "reel": {
+      "genero": "FUNK NV",
+      "tema": "Funk viral",
+      "emoji": "🇧🇷"
+    }
+  },
+  {
+    "semana": 12,
+    "fecha": "2026-09-22",
+    "fase": 2,
+    "fase_nombre": "EXPANSIÓN LATINA",
+    "set": {
+      "genero": "Reggaeton",
+      "tipo": "set",
+      "tema": "Latin Party Mix Vol.1",
+      "emoji": "🎉"
+    },
+    "reel": {
+      "genero": "Reggaeton",
+      "tema": "Best of mes",
+      "emoji": "🔥"
+    }
+  }
+]

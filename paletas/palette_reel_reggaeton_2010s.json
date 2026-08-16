@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "tipo": "reel",
+    "genero": "Reggaeton_2010s",
+    "duracion_min": 2,
+    "opciones_generadas": 5,
+    "fecha_generacion": "2026-08-15T18:20:00"
+  },
+  "opciones_reel": [
+    {
+      "titulo": "Descontrol [Intro-Outro]",
+      "artista": "Daddy Yankee",
+      "bpm": 93.0,
+      "key": "11A",
+      "energy": 7.0,
+      "version": "INTRO-OUTRO",
+      "ruta": "D:\\DJ\\Music\\Reggaeton\\Clasico\\Descontrol [Intro-Outro].mp3"
+    },
+    {
+      "titulo": "Felina",
+      "artista": "Hector & Tito",
+      "bpm": 93.0,
+      "key": "3A",
+      "energy": 7.0,
+      "version": "FULL",
+      "ruta": "D:\\DJ\\Music\\Reggaeton\\Clasico\\Felina.mp3"
+    },
+    {
+      "titulo": "Ella Y Yo",
+      "artista": "Aventura Ft Don Omar",
+      "bpm": 94.0,
+      "key": "5A",
+      "energy": 7.0,
+      "version": "FULL",
+      "ruta": "D:\\DJ\\Music\\Reggaeton\\Clasico\\Ft Don Omar Ella Y Yo.mp3"
+    },
+    {
+      "titulo": "Rescate",
+      "artista": "Alexis & Fido Ft Daddy Yankee",
+      "bpm": 95.0,
+      "key": "7A",
+      "energy": 7.0,
+      "version": "FULL",
+      "ruta": "D:\\DJ\\Music\\Reggaeton\\Clasico\\Ft Daddy Yankee Rescate.mp3"
+    },
+    {
+      "titulo": "Rakata",
+      "artista": "Wisin & Yandel",
+      "bpm": 96.0,
+      "key": "1A",
+      "energy": 8.0,
+      "version": "FULL",
+      "ruta": "D:\\DJ\\Music\\Reggaeton\\Clasico\\& Yandel Rakata.mp3"
+    }
+  ],
+  "serato_tracks": [
+    "D:\\DJ\\Music\\Reggaeton\\Clasico\\Descontrol [Intro-Outro].mp3",
+    "D:\\DJ\\Music\\Reggaeton\\Clasico\\Felina.mp3",
+    "D:\\DJ\\Music\\Reggaeton\\Clasico\\Ft Don Omar Ella Y Yo.mp3",
+    "D:\\DJ\\Music\\Reggaeton\\Clasico\\Ft Daddy Yankee Rescate.mp3",
+    "D:\\DJ\\Music\\Reggaeton\\Clasico\\& Yandel Rakata.mp3"
+  ]
+}

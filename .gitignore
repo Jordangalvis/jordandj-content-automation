@@ -1,0 +1,18 @@
+# Entorno y credenciales
+.env
+*.env
+__pycache__/
+*.pyc
+
+# Archivos temporales de inspección y dumps
+*.html
+ready.txt
+*.log
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Serato binary crates (generados)
+*.crate

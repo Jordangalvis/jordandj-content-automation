@@ -1,0 +1,392 @@
+{
+  "frescura": {
+    "Reggaeton": {
+      "total": 2290,
+      "2026": 65,
+      "2025": 175,
+      "2024": 118,
+      "anteriores": 1885,
+      "pct_recientes": 10.7,
+      "estado": "🟡 Necesita"
+    },
+    "Bachata": {
+      "total": 259,
+      "2026": 4,
+      "2025": 21,
+      "2024": 3,
+      "anteriores": 225,
+      "pct_recientes": 9.9,
+      "estado": "🟡 Necesita"
+    },
+    "SALSA": {
+      "total": 335,
+      "2026": 4,
+      "2025": 19,
+      "2024": 5,
+      "anteriores": 240,
+      "pct_recientes": 8.6,
+      "estado": "🟡 Necesita"
+    },
+    "Merengue": {
+      "total": 494,
+      "2026": 21,
+      "2025": 30,
+      "2024": 39,
+      "anteriores": 398,
+      "pct_recientes": 10.5,
+      "estado": "🟡 Necesita"
+    },
+    "Hip Hop Night Club": {
+      "total": 852,
+      "2026": 19,
+      "2025": 76,
+      "2024": 138,
+      "anteriores": 619,
+      "pct_recientes": 11.2,
+      "estado": "🟡 Necesita"
+    },
+    "RnB": {
+      "total": 1737,
+      "2026": 73,
+      "2025": 189,
+      "2024": 99,
+      "anteriores": 1370,
+      "pct_recientes": 15.1,
+      "estado": "🟢 OK"
+    },
+    "Cumbia": {
+      "total": 644,
+      "2026": 23,
+      "2025": 42,
+      "2024": 29,
+      "anteriores": 545,
+      "pct_recientes": 10.2,
+      "estado": "🟡 Necesita"
+    },
+    "Dembow": {
+      "total": 90,
+      "2026": 9,
+      "2025": 16,
+      "2024": 9,
+      "anteriores": 56,
+      "pct_recientes": 27.8,
+      "estado": "🟢 OK"
+    },
+    "Afrobeats": {
+      "total": 259,
+      "2026": 10,
+      "2025": 76,
+      "2024": 26,
+      "anteriores": 147,
+      "pct_recientes": 33.2,
+      "estado": "🟢 OK"
+    },
+    "FUNK NV": {
+      "total": 42,
+      "2026": 3,
+      "2025": 8,
+      "2024": 1,
+      "anteriores": 2,
+      "pct_recientes": 78.6,
+      "estado": "🟢 OK"
+    },
+    "Musica Mexicana": {
+      "total": 474,
+      "2026": 17,
+      "2025": 47,
+      "2024": 69,
+      "anteriores": 341,
+      "pct_recientes": 13.5,
+      "estado": "🟡 Necesita"
+    }
+  },
+  "artistas_top": {
+    "Omar Apollo Ft Dominic Fike": {
+      "tracks": 1,
+      "max_pop": 100.0,
+      "generos": [
+        "RnB"
+      ],
+      "recientes": 0
+    },
+    "Bad Bunny": {
+      "tracks": 108,
+      "max_pop": 99.0,
+      "generos": [
+        "Dembow",
+        "Bachata",
+        "Afrobeats",
+        "SALSA",
+        "EDM",
+        "Reggaeton"
+      ],
+      "recientes": 45
+    },
+    "Shakira Bad Bunny": {
+      "tracks": 1,
+      "max_pop": 99.0,
+      "generos": [
+        "EDM"
+      ],
+      "recientes": 1
+    },
+    "113": {
+      "tracks": 1,
+      "max_pop": 99.0,
+      "generos": [
+        "Merengue"
+      ],
+      "recientes": 1
+    },
+    "Randy, Ape Drums & Major Lazer": {
+      "tracks": 5,
+      "max_pop": 99.0,
+      "generos": [
+        "Reggaeton"
+      ],
+      "recientes": 4
+    },
+    "Keedron Bryant": {
+      "tracks": 2,
+      "max_pop": 99.0,
+      "generos": [
+        "RnB"
+      ],
+      "recientes": 2
+    },
+    "6Lack": {
+      "tracks": 2,
+      "max_pop": 99.0,
+      "generos": [
+        "RnB"
+      ],
+      "recientes": 1
+    },
+    "Roy Woods": {
+      "tracks": 2,
+      "max_pop": 99.0,
+      "generos": [
+        "RnB"
+      ],
+      "recientes": 1
+    },
+    "Un x100to": {
+      "tracks": 2,
+      "max_pop": 99.0,
+      "generos": [
+        "Varios"
+      ],
+      "recientes": 1
+    },
+    "Luvkush": {
+      "tracks": 1,
+      "max_pop": 98.0,
+      "generos": [
+        "RnB"
+      ],
+      "recientes": 1
+    },
+    "Major": {
+      "tracks": 1,
+      "max_pop": 98.0,
+      "generos": [
+        "RnB"
+      ],
+      "recientes": 0
+    },
+    "Miraa May": {
+      "tracks": 2,
+      "max_pop": 98.0,
+      "generos": [
+        "RnB"
+      ],
+      "recientes": 1
+    },
+    "Nichelle Colvin": {
+      "tracks": 1,
+      "max_pop": 98.0,
+      "generos": [
+        "RnB"
+      ],
+      "recientes": 1
+    },
+    "TLC": {
+      "tracks": 21,
+      "max_pop": 98.0,
+      "generos": [
+        "RnB"
+      ],
+      "recientes": 2
+    },
+    "Pinkpantheress": {
+      "tracks": 1,
+      "max_pop": 98.0,
+      "generos": [
+        "RnB"
+      ],
+      "recientes": 1
+    },
+    "Poo Bear Ft Zara Larsson": {
+      "tracks": 1,
+      "max_pop": 98.0,
+      "generos": [
+        "RnB"
+      ],
+      "recientes": 1
+    },
+    "R.Lum.R": {
+      "tracks": 2,
+      "max_pop": 98.0,
+      "generos": [
+        "RnB"
+      ],
+      "recientes": 1
+    },
+    "Beyoncé": {
+      "tracks": 3,
+      "max_pop": 97.0,
+      "generos": [
+        "RnB",
+        "Afrobeats"
+      ],
+      "recientes": 1
+    },
+    "Mario": {
+      "tracks": 7,
+      "max_pop": 97.0,
+      "generos": [
+        "RnB",
+        "Afrobeats"
+      ],
+      "recientes": 2
+    },
+    "Termina Tu Amoor": {
+      "tracks": 1,
+      "max_pop": 97.0,
+      "generos": [
+        "Cumbia"
+      ],
+      "recientes": 1
+    }
+  },
+  "crecimiento": {
+    "Reggaeton": {
+      "2024": 118,
+      "2025": 175,
+      "2026": 65,
+      "tendencia": "📈 Creciendo"
+    },
+    "Bachata": {
+      "2024": 3,
+      "2025": 21,
+      "2026": 4,
+      "tendencia": "📈 Creciendo"
+    },
+    "SALSA": {
+      "2024": 5,
+      "2025": 19,
+      "2026": 4,
+      "tendencia": "📈 Creciendo"
+    },
+    "Merengue": {
+      "2024": 39,
+      "2025": 30,
+      "2026": 21,
+      "tendencia": "→  Estable"
+    },
+    "Hip Hop Night Club": {
+      "2024": 138,
+      "2025": 76,
+      "2026": 19,
+      "tendencia": "📉 Bajando"
+    },
+    "RnB": {
+      "2024": 99,
+      "2025": 189,
+      "2026": 73,
+      "tendencia": "📈 Creciendo"
+    },
+    "Cumbia": {
+      "2024": 29,
+      "2025": 42,
+      "2026": 23,
+      "tendencia": "📈 Creciendo"
+    },
+    "Dembow": {
+      "2024": 9,
+      "2025": 16,
+      "2026": 9,
+      "tendencia": "📈 Creciendo"
+    },
+    "Afrobeats": {
+      "2024": 26,
+      "2025": 76,
+      "2026": 10,
+      "tendencia": "📈 Creciendo"
+    },
+    "FUNK NV": {
+      "2024": 1,
+      "2025": 8,
+      "2026": 3,
+      "tendencia": "📈 Creciendo"
+    },
+    "Musica Mexicana": {
+      "2024": 69,
+      "2025": 47,
+      "2026": 17,
+      "tendencia": "📉 Bajando"
+    }
+  },
+  "prioridades": [
+    {
+      "genero": "Bachata",
+      "prioridad": "ALTA",
+      "razon": "Catálogo envejecido (10% reciente)",
+      "accion": "Buscar tracks 2025-2026 en DJTools",
+      "estimado": 20
+    },
+    {
+      "genero": "SALSA",
+      "prioridad": "ALTA",
+      "razon": "Catálogo envejecido (9% reciente)",
+      "accion": "Buscar tracks 2025-2026 en DJTools",
+      "estimado": 20
+    },
+    {
+      "genero": "Bachata",
+      "prioridad": "MEDIA",
+      "razon": "Base insuficiente (259/300)",
+      "accion": "Descargar ~41 tracks nuevos",
+      "estimado": 41
+    },
+    {
+      "genero": "Dembow",
+      "prioridad": "MEDIA",
+      "razon": "Base insuficiente (90/100)",
+      "accion": "Descargar ~10 tracks nuevos",
+      "estimado": 10
+    },
+    {
+      "genero": "FUNK NV",
+      "prioridad": "MEDIA",
+      "razon": "Base insuficiente (42/80)",
+      "accion": "Descargar ~38 tracks nuevos",
+      "estimado": 38
+    },
+    {
+      "genero": "RnB",
+      "prioridad": "NORMAL",
+      "razon": "Artista popular (100) sin tracks de 2025-2026",
+      "accion": "Buscar nuevos lanzamientos de Omar Apollo Ft Dominic Fike",
+      "estimado": 3
+    },
+    {
+      "genero": "RnB",
+      "prioridad": "NORMAL",
+      "razon": "Artista popular (98) sin tracks de 2025-2026",
+      "accion": "Buscar nuevos lanzamientos de Major",
+      "estimado": 3
+    }
+  ],
+  "generado": "N/A"
+}
